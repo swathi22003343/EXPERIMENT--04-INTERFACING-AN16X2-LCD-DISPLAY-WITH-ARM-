@@ -174,12 +174,11 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 ## STM 32 CUBE PROGRAM :
 ```
-/* USER CODE BEGIN Header */
 /**
-  ******************************************************************************
+  **************************
   * @file           : main.c
   * @brief          : Main program body
-  ******************************************************************************
+  **************************
   * @attention
   *
   * Copyright (c) 2024 STMicroelectronics.
@@ -189,7 +188,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
   * in the root directory of this software component.
   * If no LICENSE file comes with this software, it is provided AS-IS.
   *
-  ******************************************************************************
+  **************************
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
@@ -268,9 +267,9 @@ int main(void)
     Lcd_HandleTypeDef lcd;
     lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
     Lcd_cursor(&lcd, 0,1);
-    Lcd_string(&lcd, "Ananda Rakshan");
+    Lcd_string(&lcd, "SWATHI D");
     Lcd_cursor(&lcd, 1,1);
-    Lcd_string(&lcd, "25763");
+    Lcd_string(&lcd, "212222230154");
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -399,9 +398,12 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
+
 ```
 ## Output screen shots of proteus  :
-![image](https://github.com/user-attachments/assets/675eb7fa-591c-4438-940a-9f6e2e29f0cd)
+![image](https://github.com/user-attachments/assets/036b1a4e-4352-4401-81ba-777f989fa44b)
+
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
